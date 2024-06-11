@@ -1,21 +1,32 @@
+const sidebar = document.querySelector(".sidebar");
+const content = document.querySelector(".content");
+const modal = document.querySelector("#circuit-content");
+
 function openNav() {
-    document.querySelector(".sidebar").style.width = "150px";
-   document.querySelector(".content").style.marginRight = "150px";
+   if (sidebar && content) {
+       sidebar.style.width = "150px";
+       content.style.marginRight = "150px";
+   }
 }
 
 function closeNav() {
-   document.querySelector(".sidebar").style.width = "0";
-   document.querySelector(".content").style.marginRight = "0";
+   if (sidebar && content) {
+       sidebar.style.width = "0";
+       content.style.marginRight = "0";
+   }
 }
 
 function openCircuit() {
-   const modal = document.querySelector("#circuit-content");
-   modal.style.display = "block";
-   document.body.style.overflow = "hidden"
+   if (modal) {
+       modal.style.display = "flex";
+       document.body.style.overflow = "hidden";
+   }
 }
 
 function closeCircuit() {
-   const modal = document.querySelector("#circuit-content");
-   modal.style.display = "none";
-   document.body.style.overflow = "auto"; 
+   if (modal) {
+       modal.style.display = "none";
+       document.body.style.overflow = "auto";
+   }
 }
+
