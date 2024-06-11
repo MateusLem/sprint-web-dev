@@ -156,35 +156,56 @@ header>nav>ul>li>a:hover{
 .podio{
     width: 300px;
     height: 180px;
+    border-radius: 15px;
     margin-top: 120px;
-    background-color: white;
     display: flex;
     float: left;
-    margin-left: 20px;
+    margin-left: 70px;
+}
+.position{
+    color: #ffffff;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: large;
 }
 #corredores{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: 0 0 0 0;
     flex-direction: column;
     width: 100%;
 }
-#primeiro{
+#primeiro, #terceiro{
     width: 100%;
-    height: 80px;
-   background-color: #590615;
+    height: 90px;
+    border-radius: 15px;
+    background-color: #590615;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: 700;
 }
 #segundo{
     width: 100%;
-    height: 80px;
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
     background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    color: #590615;
+    font-size: medium;
+    font-weight: 700;
 }
-#terceiro{
-    width: 100%;
-    height: 80px;
-   background-color: #590615;
+#primeiro>img, #segundo>img, #terceiro>img{
+    height: 50px;
 }
+
 .circuito {
     width: 300px;
     height: 150px;
