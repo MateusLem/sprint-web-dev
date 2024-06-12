@@ -32,5 +32,18 @@ header {
 #home{
     margin-right: 25px;
 }
+#parceiro1>img{
+    float: right;
+    padding: 12%;
+}
 
+.past-race{
+    width: 100%;
+    height: 681px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #192221;
+}
 

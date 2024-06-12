@@ -206,7 +206,7 @@ header>nav>ul>li>a:hover{
     height: 50px;
 }
 
-.circuito {
+#circuito {
     width: 300px;
     height: 150px;
     margin-top: 120px;
@@ -221,16 +221,16 @@ header>nav>ul>li>a:hover{
     position: relative;
 }
 
-.circuito:hover {
+#circuito:hover {
     transform: scale(1.2);
 }
 
-.circuito > h2 {
+#circuito > h2 {
     margin-left: 20px;
     z-index: 1;
 }
 
-.circuito > img {
+#circuito > img {
     width: 100px;
     margin-right: 120px;
     z-index: 1;
@@ -241,7 +241,7 @@ header>nav>ul>li>a:hover{
     position: absolute;
     top: 60%; 
     left: 35%; 
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
