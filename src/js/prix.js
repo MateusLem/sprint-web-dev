@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (selectedCard && selectedPrediction && !isNaN(betAmount) && betAmount > 0) {
             const multiplier = parseFloat(selectedCard.dataset[selectedPrediction]);
             const potentialWinnings = betAmount * multiplier;
-            alert(`Aposta confirmada! Se ganhar, você receberá R$${potentialWinnings.toFixed(2)}.`);
+            alert(`Aposta confirmada! Se ganhar, você receberá e${potentialWinnings.toFixed(2)}.`);
             document.getElementById('betAmount').value = '';
             selectedCard = null;
             selectedPrediction = null;
