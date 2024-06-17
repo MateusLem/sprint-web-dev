@@ -39,7 +39,6 @@ html {
     z-index: -1;
 }
 header {
-    position: fixed;
     width: 100%;
     height: 90px;
     display: flex;
@@ -150,7 +149,7 @@ header>nav>ul>li>a:hover{
 #mahindra{
     width: 300px;
     display: flex;
-    margin-top: 150px;
+    margin-top: 70px;
     margin-left: 480px;
 }
 .podio{
