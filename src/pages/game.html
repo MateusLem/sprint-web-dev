@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/pages.css">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/game_style.css">
 </head>
 <body>
-    <header>
-        <img src="../../assets/img/logo.png" id="logo" alt="">
-        <a id="home" href="../../index.html"><img src="../../assets/img/home.png" alt="home"></a>
-    </header>
+    <main>
+        <div id="game-container">
+            <canvas id="game-canvas" width="1486" height="849"></canvas>
+            <div id="controls">
+                <div id="points-container"><p>Pontos: <span id="points">0</span><img src="../../assets/img/game_point.png" alt="Icone Pontos" id="pointsIcon"></p></div>
+                <div id="upgrade-button" onclick="upgradeCar()"><p>Melhorar Velocidade = <span id="upgrade">10</span></p></div>
+            </div>
+        </div>
+    </main>
+    <script src="../js/game_script.js"></script>
 </body>
 </html>
